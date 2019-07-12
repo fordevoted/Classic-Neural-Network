@@ -7,14 +7,12 @@ Classic Neural Network is contain MLP( with Back propagation) / Hopfield network
   Choose the network, and download the folder, then use Java compiler to compile.
 ## Feature
   #### MLP(BP)
-  Implement include :<br>
   * Pocket algorithms.
   * Dynamic adjust learning rate.
   * Result will show in `RMSE` and  `Accuracy`
   * Cross validation to improve training
  
  #### Hopfield Network
- Implement include: <br>
  * asynchronous recall
  * user decide noise probability (probability > 0.25 may let the recall not completely correct)
 
