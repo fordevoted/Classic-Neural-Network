@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import java.lang.*?>
+<?import java.net.*?>
+<?import java.util.*?>
+<?import javafx.scene.control.*?>
+<?import javafx.scene.layout.*?>
+<?import javafx.scene.paint.*?>
+<?import javafx.scene.text.*?>
+
+<AnchorPane id="AnchorPane" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="507.0" prefWidth="711.0" style="" xmlns:fx="http://javafx.com/fxml/1" xmlns="http://javafx.com/javafx/2.2">
+  <children>
+    <Pane id="pane" prefHeight="507.0" prefWidth="622.0" AnchorPane.bottomAnchor="-107.0" AnchorPane.leftAnchor="0.0" AnchorPane.rightAnchor="-22.0" AnchorPane.topAnchor="0.0">
+      <children>
+        <TextArea id="text5" layoutX="317.0" layoutY="3.0" prefHeight="28.308258056640625" prefWidth="200.0" promptText="empty" text="" wrapText="true" />
+        <Text fill="BLACK" layoutX="531.0" layoutY="60.0" scaleX="1.088570329459096" scaleY="1.8574683384223107" strokeType="OUTSIDE" strokeWidth="0.0" text="Noise Proability">
+          <font>
+            <Font name="System Italic" size="12.0" fx:id="x1" />
+          </font>
+        </Text>
+        <Button id="start_button" layoutX="7.0" layoutY="43.0" mnemonicParsing="false" prefHeight="21.335662841796875" prefWidth="136.99997792968497" text="start training" textFill="BLACK" />
+        <TextArea id="text3" layoutX="14.0" layoutY="302.0" prefHeight="313.999977929685" prefWidth="676.0" text="&#10;&#10;&#10;output&#10;&#10;" wrapText="true">
+          <stylesheets>
+            <URL value="@PaneCss.css" />
+          </stylesheets>
+        </TextArea>
+        <Button id="file_button" layoutX="7.0" layoutY="5.0" minHeight="10.0" mnemonicParsing="false" prefHeight="21.335662841796875" prefWidth="137.0" text="Open Training  File" />
+        <TextArea id="text4" layoutX="14.0" layoutY="85.0" prefHeight="206.9999626708959" prefWidth="676.0" text="&#10;&#10;&#10;imformation&#10;" wrapText="true">
+          <stylesheets>
+            <URL value="@PaneCss.css" />
+          </stylesheets>
+        </TextArea>
+        <Text fill="BLACK" font="$x1" layoutX="592.0" layoutY="107.0" scaleX="1.4025117638913296" scaleY="2.243659734786071" strokeType="OUTSIDE" strokeWidth="0.0" text="Information" />
+        <Text fill="BLACK" font="$x1" layoutX="622.0" layoutY="326.0" scaleX="1.4025117638913296" scaleY="2.243659734786071" strokeType="OUTSIDE" strokeWidth="0.0" text="Output" />
+        <Button id="test_button" layoutX="172.0" layoutY="43.0" mnemonicParsing="false" prefHeight="21.335662841796875" prefWidth="136.99997792968497" text="start testing" textFill="BLACK" />
+        <Button id="file_test_button" layoutX="173.0" layoutY="4.0" minHeight="10.0" mnemonicParsing="false" prefHeight="21.335662841796875" prefWidth="137.0" text="Open Testing  File" />
+        <Text layoutX="529.0" layoutY="26.0" strokeType="OUTSIDE" strokeWidth="0.0" text="Status">
+          <font>
+            <Font size="20.0" />
+          </font>
+        </Text>
+        <TextArea id="text6" layoutX="317.0" layoutY="44.0" prefHeight="34.19391713866935" prefWidth="200.0" promptText="integer" text="15" wrapText="true" />
+        <Text fill="BLACK" font="$x1" layoutX="647.0" layoutY="25.0" scaleX="1.088570329459096" scaleY="1.8574683384223107" strokeType="OUTSIDE" strokeWidth="0.0" text="NN_homework_3" />
+        <Text fill="BLACK" font="$x1" layoutX="644.0" layoutY="61.0" scaleX="1.088570329459096" scaleY="1.8574683384223107" strokeType="OUTSIDE" strokeWidth="0.0" text="_105802015" />
+      </children>
+    </Pane>
+  </children>
+</AnchorPane>
