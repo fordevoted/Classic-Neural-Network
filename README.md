@@ -18,6 +18,6 @@ Classic Neural Network is contain MLP( with Back propagation) / Hopfield network
 
 ## License
 ##### Fordevoted
-105802015 資工三B 陳昱瑋 NCU CSIE
+NCU CSIE 105802015 陳昱瑋 
 ## Contact
 210509fssh@gmail.com
